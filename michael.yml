@@ -4,7 +4,7 @@ name: michael
 package_author: Michael Lindvall <michael.lindvall@gmail.com>
 parent: default
 matches:
-  - trigger: ";me"
+  - trigger: ";name"
     replace: "Michael Lindvall"
   - trigger: ";me.e"
     replace: "michael.lindvall@gmail.com"
