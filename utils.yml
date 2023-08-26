@@ -9,6 +9,20 @@ package_author: Michael Lindvall <michael.lindvall@gmail.com>
 parent: default
 matches:
 
+# Outputs both IP addresses
+- trigger: ":ip"
+  replace: |
+     WAN: {{wan}} LAN: {{lan}}
+  vars:
+    - name: wan
+      type: shell
+      params:
+        cmd: "curl 'https://api.ipify.org'"
+    - name: lan
+      type: shell
+      params:
+        cmd: "ipconfig getifaddr en0"
+
 # Outputs WAN IP address
 - trigger: ":wan"
   replace: "{{output}}"
