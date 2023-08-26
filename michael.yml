@@ -1,0 +1,30 @@
+# Quikly print common phrases for anything with connecting with me
+# inspiration from https://github.com/nicolevanderhoeven/espanso/blob/main/match/nvdh.yml
+name: michael
+package_author: Michael Lindvall <michael.lindvall@gmail.com>
+parent: default
+matches:
+  - trigger: ";me"
+    replace: "Michael Lindvall"
+  - trigger: ";me.e"
+    replace: "michael.lindvall@gmail.com"
+  - trigger: ";me.gh"
+    replace: "https://github.com/mlindvall"
+  - trigger: ";me.linkedin"
+    replace: "https://www.linkedin.com/in/michaellindvall/"
+  - trigger: ";me.site"
+    replace: "https://michaellindvall.com"
+  - trigger: ";me.twitter"
+    replace: "https://twitter.com/mlindvall"
+  - trigger: ";me.yt"
+    replace: "https://www.youtube.com/@MichaelLindvallOnline"
+  #- trigger: ";me.ethics"
+  #  replace: "https://michaellindvall.com/ethics/"
+  #- trigger: ";me.gear"
+  #  replace: "https://michaellindvall.com/gear/"
+  #- trigger: ";me.notes"
+  #  replace: "https://notes.nicolevanderhoeven.com"
+  #- trigger: ";me.speaking"
+  #  replace: "https://michaellindvall.com/speaking"
+  #- trigger: ";me.uses"
+  #  replace: "https://michaellindvall.com/uses"
